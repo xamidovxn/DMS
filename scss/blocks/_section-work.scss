@@ -1,0 +1,17 @@
+.work {
+
+   p {
+      font-size: 34px;
+      margin-top: 68px;
+      margin-left: 42px;
+   }
+
+   .grid__container {
+      margin-top: 42px;
+      grid-template-columns: auto auto auto;
+
+      img {
+         margin: 0 auto;
+      }
+   }
+}

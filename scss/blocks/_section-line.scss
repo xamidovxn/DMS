@@ -1,0 +1,43 @@
+.section__line {
+   margin-top: 89px;
+
+   .line__title {
+      font-size: 36px;
+      margin-bottom: 67px;
+   }
+
+   .line__grid {
+      display: flex;
+      justify-content: space-around;
+
+      .card__first {
+         width: 350px;
+         height: 520px;
+         margin-left: 100px;
+         background-color: #BFE4D0;
+
+         h2 {
+            padding: 20px 0 0 10px;
+         }
+
+         p {
+            padding: 10px 0 0 10px;
+            width: 150px;
+         }
+
+         button {
+            width: 134px;
+            height: 37px;
+            border: none;
+            color: #fff;
+            margin: 10px 0 0 10px;
+            background-color: $btn__color;
+
+         }
+
+         button:active {
+            background-color: $btn__active;
+         }
+      }
+   }
+}
